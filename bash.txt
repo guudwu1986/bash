@@ -1,6 +1,5 @@
 Bash Features
 1 Introduction
-  1.1 What is Bash?
   1.2 What is a shell?
 2 Definitions
 3 Basic Shell Features
@@ -138,51 +137,9 @@ Appendix D Indexes
   D.3 Parameter and Variable Index
   D.4 Function Index
   D.5 Concept Index
-Bash Features
-*************
-
-This text is a brief description of the features that are present in the
-Bash shell (version 4.3, 2 February 2014).  The Bash home page is
-<http://www.gnu.org/software/bash/>.
-
-   This is Edition 4.3, last updated 2 February 2014, of 'The GNU Bash
-Reference Manual', for 'Bash', Version 4.3.
-
-   Bash contains features that appear in other popular shells, and some
-features that only appear in Bash.  Some of the shells that Bash has
-borrowed concepts from are the Bourne Shell ('sh'), the Korn Shell
-('ksh'), and the C-shell ('csh' and its successor, 'tcsh').  The
-following menu breaks the features up into categories, noting which
-features were inspired by other shells and which are specific to Bash.
-
-   This manual is meant as a brief introduction to features found in
-Bash.  The Bash manual page should be used as the definitive reference
-on shell behavior.
 
 1 Introduction
 **************
-
-1.1 What is Bash?
-=================
-
-Bash is the shell, or command language interpreter, for the GNU
-operating system.  The name is an acronym for the 'Bourne-Again SHell',
-a pun on Stephen Bourne, the author of the direct ancestor of the
-current Unix shell 'sh', which appeared in the Seventh Edition Bell Labs
-Research version of Unix.
-
-   Bash is largely compatible with 'sh' and incorporates useful features
-from the Korn shell 'ksh' and the C shell 'csh'.  It is intended to be a
-conformant implementation of the IEEE POSIX Shell and Tools portion of
-the IEEE POSIX specification (IEEE Standard 1003.1).  It offers
-functional improvements over 'sh' for both interactive and programming
-use.
-
-   While the GNU operating system provides other shells, including a
-version of 'csh', Bash is the default shell.  Like other GNU software,
-Bash is quite portable.  It currently runs on nearly every version of
-Unix and a few other operating systems - independently-supported ports
-exist for MS-DOS, OS/2, and Windows platforms.
 
 1.2 What is a shell?
 ====================
